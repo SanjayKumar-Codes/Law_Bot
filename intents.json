@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day","hii", "hey baby"
+      ],
+      "responses" : ["Hi there, what can I do for you"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses" : ["See you later, thanks for chatting"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","Thanks for helping me"],
+      "responses" : ["It's my pleasure"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name",
+        "May I know your name",
+        "tell me your name",
+        "Do you have any name"
+      ],
+      "responses" : ["I don't have any particular name, I am just a chatbot"]
+    },
+    {
+      "tag": "men_rights",
+      "patterns": [
+        "What laws are there to protect men from women?",
+        "What regulations exist to safeguard men from women?",
+        "How men can be protected from women?"
+      ],
+      "responses": [
+        "There are no special laws to protect men from women"
+      ]
+    },
+    {
+      "tag": "sex_abuse",
+      "patterns": [
+        "I have been sexually abused",
+        "Laws related to sex abuse",
+        "I have been raped",
+        "A girl has been raped by men"
+      ],
+      "responses" : ["By the article 354-A, Sex abuse is punished with rigorous imprisonment for a term which may extend to three years, or with fine, or with both."]
+    },
+    {
+      "tag": "untouchability",
+      "patterns": [
+        "I have not allowed to enter into the temple",
+        "laws for untouchability",
+        "article for untouchability",
+        "scheduled tribes and scheduled caste not allowed to enter into the temple.",
+        "scheduled tribes and scheduled caste not allowed to enter into public places.",
+        "SC and ST are not allowed to enter into the temple.",
+        "SC and ST were denied to enter into the temple."
+      ],
+      "responses" : ["Untouchability is a crime and it is punishable with 6 months imprisonment, with a fine of ₹500."]
+    }
+  ]
+}
